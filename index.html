@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html en lang="en">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CV Website</title>
-  <link rel="stylesheet" href="style.css" />
-  <script
-    src="https://kit.fontawesome.com/2c4bf2b8f6.js"
-    crossorigin="anonymous"
-  ></script>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2c4bf2b8f6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
   <body>
-    <!-- Navbar Section -->
+    <!-- Navbar Seciton -->
     <nav class="navbar">
       <div class="navbar__container">
         <a href="#home" id="navbar__logo">Jenied Sayago</a>
@@ -26,8 +28,7 @@
             <a href="#about" class="navbar__links" id="about-page">About Me</a>
           </li>
           <li class="navbar__item">
-            <a href="#projects" class="navbar__links" id="projects-page"
-              >Projects</a
+            <a href="#projects" class="navbar__links" id="projects-page">Projects</a
             >
           </li>
           <li class="navbar__btn">
@@ -41,9 +42,7 @@
     <div class="hero" id="home">
       <div class="hero__container">
         <h1 class="hero__heading">Hello, I'm <span>Jen</span> :)</h1>
-        <p class="hero__description">
-          Aspiring Software Developer and Engineer
-        </p>
+        <p class="hero__description">Aspiring Software Engineer<br>Based in Dublin, Ireland</p>
         <button class="main__btn"><a href="#about">Learn More</a></button>
       </div>
     </div>
@@ -56,35 +55,26 @@
             <i class="fas fa-laptop-code"></i>
             <h2>Technical Skills</h2>
             <ul class="skills-list">
-              <li>HTML - CSS - JavaScript</li>
-              <li>Bootstrap</li>
-              <li>Flask</li>
-              <li>C - Python - Java</li>
-              <li>Bash Scripting</li>
-              <li>PostgreSQL</li>
-              <li>Globalization & Localization</li>
+                <li>HTML - CSS - JavaScript</li>
+                <li>Bootstrap - Express.js - Node.js</li>
+                <li>Flask - APIs</li>
+                <li>Python - C - Java</li>
+                <li>Bash - Linux - Git/Github</li>
+                <li>PostgreSQL - MySQL - MongoDB</li>
+                <li>Globalisation & Localisation</li>
             </ul>
+          
           </div>
         </div>
         <div class="main__content">
           <h1>About Me</h1>
-          <h2>Student Developer with a Passion for Learning</h2>
+          <h2>Future Full-Stack Developer and Cybersecurity Enthusiast</h2>
+          <p>I’m currently a 3rd-year Computer Science (International) student passionate about building projects that allow me to learn through hands-on experience. My goal is to become proficient in full-stack development and right now, I'm trying to learn React.js! </p>
           <p>
-            I am a 3rd year Computer Science (International) student
-            with a solid foundation in programming and software development.
-            I'm currently learning to expand my skills in full-stack web development,
-            mobile application development and software engineering 
-            this semester.
+            Alongside this, I’m exploring my growing interest in cybersecurity through platforms like TryHackMe to strengthen my skills and broaden my knowledge in the field. Through my coursework, I’ve also explored the importance of globalisation and localisation, enabling me to create websites that adapt to different languages and regions.
           </p>
           <p>
-            My coursework has also emphasized the significance of globalization
-            and localization, allowing me to create websites that adapt to
-            various languages and regions.
-          </p>
-          <p>
-            I'm eager to continue learning and improving my skills as I work on
-            new projects and take on challenges across different technologies!
-          </p>
+            Additionally, I'd love to experiment with AI and machine learning through hands-on projects as I expand my expertise as I’m always eager to collaborate and embrace new challenges across different web technologies!
         </div>
       </div>
     </div>
@@ -94,40 +84,47 @@
       <h1>My Projects</h1>
       <div class="projects__wrapper">
         <div class="projects__card">
-          <h2>Travel Website Localization</h2>
+          <h2>SoundChordAI</h2>
+          <p>Coming Soon!</p>
+          <div class="projects__btn"><a><button>In Progress</button></a></div>
+        </div>
+        <div class="projects__card">
+          <h2>Recipe Web App</h2>
+          <video class="project-video" autoplay loop muted playsinline>
+            <source src="images/recipeapp.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <p>Developed a dynamic recipe web app using ME(R)N stack and REST APIs in a team. The app includes CRUD functionality, search filters and interactive features to improve the overall user experience.</p>
+          <div class="projects__btn"><a href="https://github.com/C22380473/webdevproject"><button>View on Github</button></a></div>
+        </div>
+        <div class="projects__card">
+          <h2>Game Tracker App</h2>
+          <video class="project-video" autoplay loop muted playsinline>
+            <source src="images/GameTrackerApp.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <p>Built an Android game tracker app using Kotlin, allowing users to efficiently track their gaming history. The app's user-friendly categorisation system to enhances engagement and usability.</p>
+          <div class="projects__btn"><a href="https://github.com/C22380473/game-tracker"><button>View on Github</button></a></div>
+        </div>
+        <div class="projects__card">
+          <h2> Localised Travel Website</h2>
           <video class="project-video" autoplay loop muted playsinline>
             <source src="images/flask.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <p>
-            For this project, I used Flask that enables translation and
-            localization for a travel website. This project applied concepts of
-            globalization, making the website.
-          </p>
-          <div class="projects__btn">
-            <a
-              href="https://github.com/C22380473/travel-website-translation-app"
-              ><button>See Project</button></a
-            >
-          </div>
+          <p>For this project, I used Flask that enables translation and localisation for a travel website. This project applied concepts of globalisation, making the website.</p>
+          <div class="projects__btn"><a href="https://github.com/C22380473/travel-website-translation-app"><button>View on Github</button></a></div>
         </div>
         <div class="projects__card">
-          <h2>Song Visiualizer</h2>
-          <a href="https://www.youtube.com/watch?v=rC4WruraH6E"
-            ><video class="project-video" autoplay loop muted playsinline>
-              <source src="images/visualizer.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video></a
-          >
-          <p>
-            Developed a dynamic song visualizer as part of a group project using
-            Java and object-oriented programming principles. It responds in real
-            time to the music being played.
-          </p>
+          <h2>Song Visiualiser</h2>
+          <a href="https://www.youtube.com/watch?v=rC4WruraH6E"><video class="project-video" autoplay loop muted playsinline>
+            <source src="images/visualizer.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video></a>
+          <p> Developed a dynamic song visualiser as part of a group project using Java and object-oriented programming principles. It responds in real time to the music being played.</p>
           <div class="projects__btn">
-            <a href="https://github.com/arushisingh2803/MusicVisuals"
-              ><button>See Project</button></a
-            >
+            <a href="https://www.youtube.com/watch?v=rC4WruraH6E"><button>Demo</button></a>
+            <a href="https://github.com/arushisingh2803/MusicVisuals"><button>View on Github</button></a>
           </div>
         </div>
         <div class="projects__card">
@@ -136,16 +133,8 @@
             <source src="images/gigguru.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <p>
-            Created a responsive concert finder website with Bootstrap as my
-            first major web development project. Users can explore upcoming
-            concerts or fesitivals of new or big artists.
-          </p>
-          <div class="projects__btn">
-            <a href="https://github.com/C22380473/gig-guru"
-              ><button>See Project</button></a
-            >
-          </div>
+          <p>Created a responsive concert finder website with Bootstrap as my first major web development project. Users can explore upcoming concerts or fesitivals of new or big artists.</p>
+          <div class="projects__btn"><a href="https://github.com/C22380473/gig-guru"><button>View on Github</button></a></div>
         </div>
       </div>
     </div>
@@ -154,72 +143,26 @@
     <div class="main" id="contact">
       <div class="main__container">
         <div class="main__content">
-          <h1>Get in Touch</h1>
+          <h1>Contact</h1>
           <h2>Drop Me a Message!</h2>
+          <p>If you have any questions or would like to discuss opportunities, feel free to reach out:</p>
           <p>
-            If you have any questions or would like to discuss opportunities,<br />
-            feel free to reach out:
-          </p>
-          <p>
-            <i class="fas fa-envelope"></i>
+            <i class="fas fa-envelope"></i> 
             Email: carmeljenied@gmail.com
           </p>
           <p>
-            <i class="fab fa-github"></i>
-            GitHub:
-            <a href="https://github.com/C22380473"
-              >https://github.com/C22380473</a
-            >
+            <i class="fab fa-github"></i> 
+            GitHub: <a href="https://github.com/C22380473">https://github.com/C22380473</a>
           </p>
           <p>
-            <i class="fab fa-linkedin"></i>
-            LinkedIn:
-            <a href="https://ie.linkedin.com/in/jenied-sayago-b98b77324"
-              >https://ie.linkedin.com/in/jenied-sayago-b98b77324</a
-            >
+            <i class="fab fa-linkedin"></i> 
+            LinkedIn: <a href="https://ie.linkedin.com/in/jenied-sayago-b98b77324">https://ie.linkedin.com/in/jenied-sayago-b98b77324</a>
           </p>
         </div>
         <div class="main__img--container">
           <div class="main__img--card" id="card-2">
-            <!-- Contact Form -->
-            <h3 class="form-title">Contact Me</h3>
-            <form
-              action="your-form-processing-url"
-              method="POST"
-              class="contact-form"
-            >
-              <div class="form-group">
-                <label for="name">Name:</label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Your Name"
-                  required
-                />
+                <i class="fa-regular fa-comment-dots"></i>
               </div>
-              <div class="form-group">
-                <label for="email">Email:</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Your Email"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <label for="message">Message:</label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows="5"
-                  placeholder="Your Message"
-                  required
-                ></textarea>
-              </div>
-              <button>Send</button>
-            </form>
           </div>
         </div>
       </div>
@@ -227,50 +170,19 @@
 
     <!-- Footer Section -->
     <div class="footer__container">
-      <div class="footer__links">
-        <div class="footer__link--wrapper">
-          <div class="footer__link--items">
-            <h2>About Me</h2>
-            <a href="#about">My Experience</a> <a href="#about">Skills</a>
-          </div>
-          <div class="footer__link--items">
-            <h2>Projects</h2>
-            <a href="#projects">Web Development</a>
-            <a href="#projects">Object Oriented Programming</a>
-          </div>
-        </div>
-        <div class="footer__link--wrapper">
-          <div class="footer__link--items">
-            <h2>Contact</h2>
-            <a>carmeljenied@gmail.com</a
-            ><a href="https://github.com/C22380473">GitHub</a>
-            <a href="https://ie.linkedin.com/in/jenied-sayago-b98b77324"
-              >LinkedIn</a
-            >
-          </div>
-        </div>
-      </div>
       <section class="social__media">
         <div class="social__media--wrap">
           <div class="footer__logo">
             <a href="/" id="footer__logo">Jenied Sayago</a>
           </div>
-          <p class="website__rights">
-            © Jenied Sayago 2024. All rights reserved
-          </p>
+          <p class="website__rights">© Jenied Sayago 2024. All rights reserved</p>
           <div class="social__icons">
-            <a
-              href="mailto:carmeljenied@gmail.com"
-              class="social__icon--link"
-              target="_blank"
-              ><i class="fa-solid fa-envelope"></i
-            ></a>
+            <a href="mailto:carmeljenied@gmail.com" class="social__icon--link" target="_blank"
+              ><i class="fa-solid fa-envelope"></i>
+            </a>
             <a href="https://github.com/C22380473" class="social__icon--link"
-              ><i class="fab fa-github"></i
-            ></a>
-            <a
-              href="https://ie.linkedin.com/in/jenied-sayago-b98b77324"
-              class="social__icon--link"
+              ><i class="fab fa-github"></i></a>
+            <a href="https://ie.linkedin.com/in/jenied-sayago-b98b77324" class="social__icon--link"
               ><i class="fab fa-linkedin"></i
             ></a>
           </div>
